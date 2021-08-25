@@ -1,0 +1,89 @@
+#container_svg {
+    min-width   : 100%;
+    min-height    : 100%;
+    // overflow: hidden;
+    position  : relative;
+    box-sizing: border-box;
+    // border: 1px solid red;
+    
+    position: relative;
+    height: 100%;
+    flex: 1;
+    overflow: visible;
+    .item {
+        position     : absolute;
+        background   : #fff;
+        cursor       : pointer;
+        // border       : 1px solid #EEEEEE;
+        border-radius: 10px;
+        line-height  : 100px;
+        // display      : flex;
+        text-align: center;
+        background   : #4ebf17;
+        color: #fff;
+        &.a {
+            width : 100px;
+            height: 100px;
+            border-radius: 30px;
+        }
+
+        &.b {
+            width       : 100px;
+            height      : 100px;
+            // background  : #7950bb;
+            background  : url(./nodeBg.png) no-repeat ;
+            background-size: 100% 100%;
+            // transform: rotate(45deg);
+        }
+
+        &.c {
+            background: orange;
+            width     : 100px;
+            height    : 100px;
+        }
+
+        // .name {
+        //     flex         : 1;
+        //     font-weight  : 600;
+        //     color        : #fff;
+        //     white-space  : nowrap;
+        //     text-overflow: ellipsis;
+        //     overflow     : hidden;
+
+        //     &>i {
+        //         margin-right: 5px;
+        //     }
+        // }
+
+        // .del{
+        //     flex: 0 0 20px;
+        //     background: #bfbfbf;
+        //     color: #fff;
+        //     border-radius: 50%;
+        //     height: 20px;
+        //     text-align: center;
+        //     line-height: 20px;
+        //     font-size: 12px;
+        //     margin-top: 5px;
+        //     cursor: pointer;
+        //     &:hover{
+        //         opacity: 0.7;
+        //         // color: @theme-blue-color;
+        //     }
+        // }
+    }
+
+    // /deep/.connectRalationShip {
+    //     cursor: pointer;
+    //     &>span {
+    //         display      : block;
+    //         width        : 45px;
+    //         height: 30px;
+    //         text-align   : center;
+    //         border-radius: 8px;
+    //     }
+
+
+    // }
+
+}
