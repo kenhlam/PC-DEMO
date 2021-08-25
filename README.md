@@ -1,4 +1,8 @@
-# demo
+# PC端组件收集
+
+## 组件目录
+
+### 基于jsplumb的流程图
 
 ## Project setup
 ```
@@ -19,6 +23,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
