@@ -1,8 +1,7 @@
 export default [
     {
-      path: '/',
-      name: 'home',
-      redirect:"/dragTable",
+      path: '/dragTable',
+      name: 'dragTable',
       component: () => import('./index.vue')
     }
   ]

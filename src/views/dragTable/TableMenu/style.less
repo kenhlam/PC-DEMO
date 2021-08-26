@@ -1,0 +1,39 @@
+
+.menu_wrap{
+    height: 874px;
+    overflow: auto;
+    .dataSourceSelectArea {
+        .item {
+            margin-bottom: 10px;
+        }
+    }
+    .menu_item{
+        word-break: break-all;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid gray;
+        border-radius: 4px;
+        margin-bottom: 5px;
+        cursor: not-allowed;
+        border: 1px solid #dcdfe6;
+        color: #bfbfbf;
+        background: #fafafa;
+        &.draggable{
+            cursor: move;
+            color: #606266;
+            background: #fff;
+            &:hover{
+                color:  #eee;
+            }
+        }
+        span{
+            margin-left: 5px;
+        }
+    }
+  
+}

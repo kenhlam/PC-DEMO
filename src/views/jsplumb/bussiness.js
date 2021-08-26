@@ -1,4 +1,4 @@
-import DragSvgArea from "@components/DragSvgArea";
+import DragSvgArea from "./DragSvgArea";
 const NODES = [
 
   {
